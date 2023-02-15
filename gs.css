@@ -6,7 +6,7 @@
 }
 
 .speech{
-    color: rgba(30, 28, 28, 0.957);
+    color:rgb(77, 75, 75)
     font-family: monospace;
     font-size: 18px;
 }
@@ -18,15 +18,33 @@
 }
 
 .name:hover{
-    color: aquamarine;
-    background-color: antiquewhite;
+    color: rgb(4, 53, 37);
+    background-color: rgb(145, 102, 45);
     text-shadow: 4px 4px 4px rgb(184, 8, 43);
     border: 1px solid black;
 }
 .direction:hover{
-    color: aquamarine;
-    background-color: antiquewhite;
+    color: rgb(7, 37, 27);
+    background-color: rgb(101, 63, 12);
     text-shadow: 4px 4px 4px rgb(184, 8, 43);
     border: 1px solid black;
 
+}
+.actor{
+    font-family:'Times New Roman', Times, serif
+    border-collapse: collapse;
+    width: 100%;
+}
+.actor td,.actor th {
+    border: 1px solid coral;
+    padding: 7px;
+}
+.actor tr.nth-child(eve){background: color #f1f1f1;}
+.actor tr:hover{background-color: rgb(152, 218, 108);}
+.actor th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(162, 31, 118);
+    color: rgb(12, 254, 145);
 }
