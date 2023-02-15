@@ -1,0 +1,32 @@
+.name{
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans';
+    font-size: 23px;
+    display: inline;
+}
+
+.speech{
+    color: rgba(30, 28, 28, 0.957);
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.direction{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.name:hover{
+    color: aquamarine;
+    background-color: antiquewhite;
+    text-shadow: 4px 4px 4px rgb(184, 8, 43);
+    border: 1px solid black;
+}
+.direction:hover{
+    color: aquamarine;
+    background-color: antiquewhite;
+    text-shadow: 4px 4px 4px rgb(184, 8, 43);
+    border: 1px solid black;
+
+}
