@@ -18,9 +18,9 @@
 }
 
 .name:hover{
-    color: rgb(4, 53, 37);
-    background-color: rgb(145, 102, 45);
-    text-shadow: 4px 4px 4px rgb(184, 8, 43);
+    color: rgb(242, 234, 0);
+    background-color: rgb(157, 152, 159);
+    text-shadow: 4px 4px 4px rgb(62, 169, 149);
     border: 1px solid black;
 }
 .direction:hover{
@@ -47,4 +47,17 @@
     text-align: left;
     background-color: rgb(162, 31, 118);
     color: rgb(12, 254, 145);
+}
+ul.navbar-horizontal li{
+
+    float:left;
+    
+    display:inline;
+    
+    }
+.navbar-horizontal{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
