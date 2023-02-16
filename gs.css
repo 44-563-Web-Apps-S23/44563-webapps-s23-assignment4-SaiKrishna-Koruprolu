@@ -60,3 +60,12 @@ ul.navbar-horizontal li{
   padding: 0;
   overflow: hidden;
 }
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #a59a9a;
+  }
